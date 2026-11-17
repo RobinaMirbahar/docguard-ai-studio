@@ -2,8 +2,8 @@
 
 **Author:** [Robina Mirbahar](https://github.com/RobinaMirbahar) — Google Cloud & AI Architect | Google Developer Expert (AI & Cloud)
 
-[![Google Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-Serverless-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/run)
-[![Google ADK 2.0](https://img.shields.io/badge/Google_ADK_2.0-Graph_Workflow-0F9D58?logo=google&logoColor=white)](https://google.github.io/adk-docs/)
+[![Google Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-Serverless-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/run?utm_campaign=deveco_gdemembers&utm_source=deveco)
+[![Google ADK 2.0](https://img.shields.io/badge/Google_ADK_2.0-Graph_Workflow-0F9D58?logo=google&logoColor=white)](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco)
 [![Developer Knowledge MCP](https://img.shields.io/badge/MCP-Developer_Knowledge-8B5CF6)](https://developerknowledge.googleapis.com/mcp)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
