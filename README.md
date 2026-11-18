@@ -9,8 +9,11 @@
 
 **DocGuard AI Studio** is a standalone, production-grade **Google Docs Technical Reviewer, Security Pre-Scanner, and 4-Persona Virtual Review Board** built on **Google ADK 2.0 (`Workflow`, `FunctionNode`, `RoutingMap`, `JoinNode`)**, **Gemini on Vertex AI**, **Google Developer Knowledge Remote MCP Server**, **Google Search Grounding**, **Google Drive Picker**, and the **Google Docs API v1 (`insertComment`, `addCommentReply`, and `writeControl: {"writeMode": "SUGGEST"}`)**.
 
----
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
+> 📚 **Architecture Track:** Autonomous Google Docs Technical Reviewer, Security Pre-Scanner & 4-Persona ADK 2.0 Graph Workflow  
+> **Core Stack:** [Google Agent Development Kit (ADK) 2.0](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Gemini API](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), Developer Knowledge MCP Server, Google Docs API, and [Google Cloud Run](https://cloud.google.com/run/docs?utm_campaign=deveco_gdemembers&utm_source=deveco).
 
+---
 ## ✨ What Makes DocGuard AI Studio Stand Out
 
 1. **🏛️ 4-Persona ADK 2.0 Graph Workflow (`app/addons/review_board.py`)**
@@ -88,6 +91,26 @@ flowchart LR
     Chief --> Tools
     CommentAgent --> Tools
     Tools -->|"User OAuth Token"| DocsAPI
+    style Browser fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style UI fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Picker fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style n fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style CloudRun fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Auth fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Ingest fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style Sec fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style Fact fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style AISys fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Copy fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style Join fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style Chief fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style CommentAgent fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Tools fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style GCP fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style Vertex fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style AI fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style DevKnow fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style DocsAPI fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ---
