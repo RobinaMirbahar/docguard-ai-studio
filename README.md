@@ -91,26 +91,6 @@ flowchart LR
     Chief --> Tools
     CommentAgent --> Tools
     Tools -->|"User OAuth Token"| DocsAPI
-    style Browser fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style UI fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Picker fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style n fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style CloudRun fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style Auth fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Ingest fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Sec fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Fact fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style AISys fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Copy fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Join fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Chief fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style CommentAgent fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Tools fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style GCP fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Vertex fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style AI fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style DevKnow fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style DocsAPI fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ---
